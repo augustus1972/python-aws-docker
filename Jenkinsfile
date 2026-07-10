@@ -3,8 +3,8 @@ pipeline {
     environment {
         DOCKER_IMAGE = "local-python-app"
         DEPLOY_USER = "ec2-user"
-        SERVER_1 = "10.0.30.60"
-        SERVER_2 = "10.0.33.149"
+        SERVER_1 = "10.0.24.183"
+        SERVER_2 = "10.0.35.154"
     }
     stages {
         stage('Pobieranie Kodu') {
